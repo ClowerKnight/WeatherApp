@@ -21,6 +21,7 @@ const displayResult = (result) => {
 
     let temp = document.querySelector('.temp')
     temp.innerText=`${Math.round(result.main.temp)}°C`
+    
 
     let desc = document.querySelector('.desc')
     desc.innerText=result.weather[0].description
